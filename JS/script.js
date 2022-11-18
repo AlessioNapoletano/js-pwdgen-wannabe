@@ -10,12 +10,10 @@ let colorePreferito = prompt("inserisci il tuo colore preferito: ");
 
 console.log("il tuo colore preferito è: " + colorePreferito);
 
-console.log("la password super sicura è: " + nome + cognome +colorePreferito);
+let eta = prompt("inserisci la tua età: ");
 
-const numero = 22;
+console.log("la password super sicura è: " + nome + cognome +colorePreferito + eta);
 
-console.log("la password super sicura è: " + nome + cognome +colorePreferito + numero);
-
-const passwordSicura = nome + cognome + colorePreferito + numero;
+const passwordSicura = nome + cognome + colorePreferito + eta;
 
 document.getElementById("demo").innerHTML = passwordSicura;
