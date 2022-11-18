@@ -10,7 +10,9 @@ let colorePreferito = prompt("inserisci il tuo colore preferito: ");
 
 console.log("il tuo colore preferito è: " + colorePreferito);
 
-let eta = prompt("inserisci la tua età: ");
+let eta = parseInt(prompt("inserisci la tua età: "));
+
+console.log("la tua età è: " + eta);
 
 console.log("la password super sicura è: " + nome + cognome +colorePreferito + eta);
 
